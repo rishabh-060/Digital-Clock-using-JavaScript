@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffe0e0;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock{
+    text-align: center;
+    background-color: rgb(17, 14, 31);
+    color: rgb(132, 160, 180);
+    border-radius: 15px;
+    min-height: 200px;
+    width: 480px;
+    padding: 25px;
+}
+
+#time{
+    font-size: 45px;
+    color: rgb(132, 160, 180);
+    padding: 15px 0;
+}
+
+#timeBtn, #stopTime{
+    font-size: 20px;
+    font-weight: 750;
+    padding: 12px 32px;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: rgb(228, 204, 242);
+    background-color: rgba(150, 90, 5, 0.993);
+}
