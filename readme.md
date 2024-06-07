@@ -1,6 +1,6 @@
-#Clock to check Indian Standard Time
+# Clock to check Indian Standard Time
 
-##used technology
+## used technology
 - HTML
 - CSS
 - JavaScript
